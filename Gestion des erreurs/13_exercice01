@@ -1,0 +1,7 @@
+try:
+    a = float(input("Entrez le dividende : "))
+    b = float(input("Entrez le diviseur : "))
+    resultat = a / b
+    print(f"Résultat : {resultat}")
+except ZeroDivisionError:
+    print("Erreur : division par zéro.")
