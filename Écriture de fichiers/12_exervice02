@@ -1,0 +1,8 @@
+n = int(input("Entrez un nombre : "))
+
+with open(f"table_{n}.txt", "w") as f:
+    for i in range(1, 13):
+        ligne = f"{n} x {i} = {n * i}\n"
+        f.write(ligne)
+
+print(f"Table de {n} enregistrée dans 'table_{n}.txt'.")
