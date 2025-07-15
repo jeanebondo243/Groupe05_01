@@ -1,0 +1,4 @@
+texte = input("Entrez un texte : ")
+
+texte_nettoye = texte.strip().lower().replace(".", "!")
+print("Texte transformé :", texte_nettoye)
