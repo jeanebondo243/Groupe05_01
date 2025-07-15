@@ -1,0 +1,5 @@
+phrase = input("Entrez une phrase ou un titre : ")
+mots = phrase.split()
+
+acronyme = "".join(mot[0].upper() for mot in mots)
+print(f"Acronyme : {acronyme}")
