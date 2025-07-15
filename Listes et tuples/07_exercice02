@@ -1,0 +1,8 @@
+liste = input("Entrez une liste avec doublons (espaces entre les éléments) : ").split()
+uniques = []
+
+for item in liste:
+    if item not in uniques:
+        uniques.append(item)
+
+print("Valeurs uniques :", uniques)
