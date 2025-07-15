@@ -1,0 +1,7 @@
+age = int(input("Quel est votre âge ? "))
+pays = input("Quel est votre pays ? ")
+
+if age >= 18 and (pays.lower() == "congo" or pays.lower() == "cameroun"):
+    print("Inscription autorisée.")
+else:
+    print("Inscription refusée.")
