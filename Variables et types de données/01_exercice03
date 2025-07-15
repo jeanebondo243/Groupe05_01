@@ -1,0 +1,7 @@
+heures = int(input("Nombre d'Heures : "))
+minutes = int(input("Nombre de Minutes : "))
+secondes = int(input("Nombre de Secondes : "))
+
+total_secondes = heures * 3600 + minutes * 60 + secondes
+
+print(f"Durée totale en secondes : {total_secondes}")
