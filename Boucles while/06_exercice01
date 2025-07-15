@@ -1,0 +1,13 @@
+import random
+
+secret = random.randint(1, 100)
+devine = None
+
+while devine != secret:
+    devine = int(input("Devine le nombre (entre 1 et 100) : "))
+    if devine < secret:
+        print("Trop petit.")
+    elif devine > secret:
+        print("Trop grand.")
+    else:
+        print("Bravo ! Tu as trouvé le nombre.")
