@@ -1,0 +1,8 @@
+notes = [float(x) for x in input("Entrez des notes séparées par des espaces : ").split()]
+moyenne = sum(notes) / len(notes)
+
+with open("statistiques.txt", "w") as f:
+    f.write(f"Notes : {notes}\n")
+    f.write(f"Moyenne : {moyenne:.2f}\n")
+
+print("Statistiques enregistrées dans 'statistiques.txt'.")
