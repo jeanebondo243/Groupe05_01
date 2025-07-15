@@ -1,0 +1,13 @@
+nom = input("Nom du produit : ")
+prix = float(input("Prix unitaire  : "))
+stock = int(input("Stock disponible : "))
+remise = float(input("Remise (%): "))
+
+prix_final = prix * (1 - remise / 100)
+
+print("\n--- Fiche Produit ---")
+print(f"Produit : {nom}")
+print(f"Prix initial : {prix} €")
+print(f"Remise : {remise} %")
+print(f"Prix final : {prix_final:.2f} €")
+print(f"Stock : {stock} unités")
