@@ -1,0 +1,12 @@
+import math
+
+try:
+    nombre = float(input("Entrez un nombre : "))
+    if nombre < 0:
+        raise ValueError("Nombre négatif.")
+    racine = math.sqrt(nombre)
+    print(f"Racine carrée : {racine}")
+except ValueError as e:
+    print(f"Erreur : {e}")
+finally:
+    print("Fin du programme.")
