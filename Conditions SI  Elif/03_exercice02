@@ -1,0 +1,12 @@
+note = float(input("Entrez une note sur 100 : "))
+
+if note >= 90:
+    print("Excellent")
+elif note >= 75:
+    print("Très Bien")
+elif note >= 60:
+    print("Bien")
+elif note >= 50:
+    print("Passable")
+else:
+    print("Insuffisant")
