@@ -1,0 +1,10 @@
+def statistiques(liste):
+    somme = sum(liste)
+    moyenne = somme / len(liste)
+    maximum = max(liste)
+    return somme, moyenne, maximum
+
+# Exemple d'utilisation :
+nombres = [float(x) for x in input("Entrez des nombres : ").split()]
+s, m, max_val = statistiques(nombres)
+print(f"Somme : {s}, Moyenne : {m:.2f}, Max : {max_val}")
