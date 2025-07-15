@@ -1,0 +1,19 @@
+def calculer(a, b, op):
+    if op == "+":
+        return a + b
+    elif op == "-":
+        return a - b
+    elif op == "*":
+        return a * b
+    elif op == "/":
+        return a / b
+    else:
+        return "Opération inconnue"
+
+# Exemple d'utilisation :
+a = float(input("Premier nombre : "))
+b = float(input("Deuxième nombre : "))
+op = input("Opération (+, -, *, /) : ")
+
+resultat = calculer(a, b, op)
+print(f"Résultat : {resultat}")
