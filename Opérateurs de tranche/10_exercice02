@@ -1,0 +1,3 @@
+elements = input("Entrez des éléments séparés par des espaces : ").split()
+inverse = elements[::-1]
+print("Liste inversée :", inverse)
