@@ -1,0 +1,11 @@
+def convertir_usd(montant):
+    eur = montant * 0.93
+    cfa = montant * 610
+    gbp = montant * 0.79
+    return eur, cfa, gbp
+
+montant = float(input("Montant en dollars (USD) : "))
+eur, cfa, gbp = convertir_usd(montant)
+print(f"{montant} USD = {eur:.2f} EUR")
+print(f"{montant} USD = {cfa:.2f} CFA")
+print(f"{montant} USD = {gbp:.2f} GBP")
