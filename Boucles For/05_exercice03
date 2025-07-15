@@ -1,0 +1,5 @@
+texte = input("Entrez une chaîne de caractères : ")
+inverse = ""
+for c in texte:
+    inverse = c + inverse
+print(f"Chaîne inversée : {inverse}")
