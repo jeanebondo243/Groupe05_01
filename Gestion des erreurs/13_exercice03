@@ -1,0 +1,9 @@
+nom_fichier = input("Nom du fichier à ouvrir : ")
+
+try:
+    with open(nom_fichier, "r") as f:
+        contenu = f.read()
+        print("Contenu du fichier :")
+        print(contenu)
+except FileNotFoundError:
+    print("Erreur : fichier introuvable.")
