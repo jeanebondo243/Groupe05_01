@@ -1,0 +1,7 @@
+texte = input("Entrez un texte à convertir en entier : ")
+
+try:
+    entier = int(texte)
+    print(f"Conversion réussie : {entier}")
+except ValueError:
+    print("Erreur : ce n'est pas un entier valide.")
