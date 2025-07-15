@@ -1,0 +1,3 @@
+nombres = [int(x) for x in input("Entrez une liste de nombres : ").split()]
+indices_pairs = nombres[::2]
+print("Éléments aux indices pairs :", indices_pairs)
