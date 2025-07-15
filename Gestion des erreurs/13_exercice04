@@ -1,0 +1,9 @@
+while True:
+    try:
+        nombre = int(input("Entrez un entier positif : "))
+        if nombre >= 0:
+            break
+        else:
+            print("Erreur : le nombre doit être positif.")
+    except ValueError:
+        print("Erreur : vous devez entrer un entier.")
