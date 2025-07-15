@@ -1,0 +1,6 @@
+activite = input("Décrivez une activité : ")
+
+with open("journal.txt", "a") as f:
+    f.write(activite + "\n")
+
+print("Activité enregistrée dans 'journal.txt'.")
