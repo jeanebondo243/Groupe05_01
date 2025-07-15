@@ -1,0 +1,8 @@
+mdp = input("Entrez un mot de passe : ")
+
+est_valide = len(mdp) >= 8 and any(c.isdigit() for c in mdp) and any(c.isupper() for c in mdp)
+
+if est_valide:
+    print("Mot de passe valide.")
+else:
+    print("Mot de passe invalide.")
