@@ -1,0 +1,9 @@
+montant_usd = float(input("Montant en dollars (USD) : "))
+
+eur = montant_usd * 0.93
+cfa = montant_usd * 610
+gbp = montant_usd * 0.79
+
+print(f"{montant_usd} USD = {eur:.2f} EUR")
+print(f"{montant_usd} USD = {cfa:.2f} CFA")
+print(f"{montant_usd} USD = {gbp:.2f} GBP")
