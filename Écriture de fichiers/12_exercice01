@@ -1,0 +1,8 @@
+with open("utilisateurs.txt", "w") as f:
+    while True:
+        nom = input("Entrez un nom (ou 'stop' pour terminer) : ")
+        if nom.lower() == "stop":
+            break
+        f.write(nom + "\n")
+
+print("Liste enregistrée dans 'utilisateurs.txt'.")
