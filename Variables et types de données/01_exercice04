@@ -1,0 +1,3 @@
+note_sur_20 = float(input("Entrez une note sur 20 : "))
+note_sur_100 = (note_sur_20 / 20) * 100
+print(f"La note sur 100 est : {note_sur_100:.2f}")
