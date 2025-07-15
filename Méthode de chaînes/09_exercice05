@@ -1,0 +1,7 @@
+phrase = input("Entrez une phrase : ")
+mot = input("Mot à masquer : ")
+
+masque = "*" * len(mot)
+phrase_masquee = phrase.replace(mot, masque)
+
+print("Phrase masquée :", phrase_masquee)
