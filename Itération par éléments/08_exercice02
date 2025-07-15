@@ -1,0 +1,4 @@
+elements = input("Entrez des éléments séparés par des espaces : ").split()
+
+for index, element in enumerate(elements):
+    print(f"Indice {index} : {element}")
