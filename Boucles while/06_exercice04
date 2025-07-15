@@ -1,0 +1,7 @@
+mot_de_passe_correct = "Python2025"
+saisi = ""
+
+while saisi != mot_de_passe_correct:
+    saisi = input("Entrez le mot de passe : ")
+
+print("Mot de passe correct !")
