@@ -1,0 +1,9 @@
+nombres = [float(x) for x in input("Entrez des nombres séparés par des espaces : ").split()]
+
+maximum = max(nombres)
+minimum = min(nombres)
+moyenne = sum(nombres) / len(nombres)
+
+print(f"Max : {maximum}")
+print(f"Min : {minimum}")
+print(f"Moyenne : {moyenne:.2f}")
