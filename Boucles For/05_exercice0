@@ -1,0 +1,6 @@
+carres = []
+for i in range(1, 21):
+    carre = i ** 2
+    if carre > 100:
+        carres.append(carre)
+print("Carrés supérieurs à 100 :", carres)
