@@ -1,0 +1,12 @@
+prenom = input("entrez votre prénom :")
+age = int(input("entrez votre âge : "))
+ville = input("entrez votre ville :")
+metier = input("entrez votre metier: ")
+
+jours_vécus = age * 365
+
+print("\n=== PROFIL UTILISATEUR===")
+print(f"Prénom : {prenom}")
+print(f"Âge : {age} ans (environ {jours_vécus} jours vécus)")
+print(f"Ville : {ville}")
+print(f"Métier : {metier}")
